@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Taltkal</title>
+</head>
+<body>
+        <h4> <center><u>INDIAN RAILWAYS</u></center> </h4>
+        <br>
+        <figure>
+            <img src="image/train.png" alt="train image"title="INDIAN RAILWAYS" width="100" height="100" align="right">
+        </figure>
+        <br>
+        <br>
+        <h1> <center><u>RESERVATION/CANCELLATION REQUISITION FORM</u></center></h1>
+       <div>
+        <label><b>SI.NO</b></label>
+        <input name="serial no">
+        <label><b>SIGNATURE OF SUPERVISOR</b></label>
+        <input name="sign">
+       </div> 
+       <div>
+        <br>
+        <br>
+        <label>->If you are a Medical Patient , please type (yes) in the box</label>
+        <input name="reason1">
+        <br>
+        <br>
+        <label>->Do you want to be ugraded without ant exatra charge (YES/NO) type in th box</label>
+        <input name="reason2">
+        <br>
+        <br>
+        <label>->If you are booking in 3 AC class or sleeper in express, do you want bedroll in the train? (yes/no) type in the box</label>
+        <input name="reason3">
+        <br>
+        <br>
+        <label>->If you want to get shifted to alternate train under <b>'VIKALP'</b> scheme (YES/NO) type in the box</label>
+        <input name="reason4">
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <h4>J0URNEY DETAILS</h4>
+    <div>
+        <label>Train Name</label>
+        <input name="TRAIN NAME">
+        <br>
+        <br>
+        <label>Train No</label>
+        <input name="TRAIN No">
+        <br>
+        <br>
+        <label>Date of journey</label>
+        <input name="DATE">
+        <label>class</label>
+        <input name="class">
+        <label>N0.of Berths/seats</label>
+        <input name="SEATS">
+        <br>
+        <br>
+        <label>Station from</label>
+        <input name="Place">
+        <label>to</label>
+        <input name="Place">
+        <br>
+        <br>
+        <label>Boarding at</label>
+        <input name="Place">
+        <label>Reseravation upto</label>
+        <input name="Place">
+       <br>
+       <br>
+       <label>Mobile No of passenger travelling</label>
+       <input name="Phone.no">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <table border="4">
+            <tbody>
+                <tr>
+                    <td>Si.No</td>
+                    <td>Name</td>
+                    <td>Nationality</td>
+                    <td>choice of berth(up,md,lw)</td>
+                    <td>Age</td>
+                </tr>
+                <tr>
+                    <td>1.</td>
+                    <td><input type="text" name="firstname" placeholder="name" required></td>
+                    <td><input type="text" name="nationality" placeholder="country name"required></td>
+                    <td><select name="berth" required>
+                        <option value="lower berth">lw</option>
+                        <option value="upper berth">up</option>
+                        <option value="middle">md</option>
+                    </select></td>
+                    <td><input type="number" name="age" place="age" required></td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td><input type="text" name="firstname" placeholder="name" required></td>
+                    <td><input type="text" name="nationality" placeholder="country name"required></td>
+                    <td><select name="berth" required>
+                        <option value="lower berth">lw</option>
+                        <option value="upper berth">up</option>
+                        <option value="middle">md</option>
+                    </select></td>
+                    <td><input type="number" name="age" place="age" required></td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td><input type="text" name="firstname" placeholder="name" required></td>
+                    <td><input type="text" name="nationality" placeholder="country name"required></td>
+                    <td><select name="berth" required>
+                        <option value="lower berth">lw</option>
+                        <option value="upper berth">up</option>
+                        <option value="middle">md</option>
+                    </select></td>
+                    <td><input type="number" name="age" place="age" required></td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td><input type="text" name="firstname" placeholder="name" required></td>
+                    <td><input type="text" name="nationality" placeholder="country name"required></td>
+                    <td><select name="berth" required>
+                        <option value="lower berth">lw</option>
+                        <option value="upper berth">up</option>
+                        <option value="middle">md</option>
+                    </select></td>
+                    <td><input type="number" name="age" place="age" required></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h4><center>CHILDREN BELOW 5 YEARS(FOR WHOM TICKET IS NOT BE ISSUED)</center></h4>
+        <br>
+    </div>
+        <div>
+            <table border="4">
+                <tbody>
+                    <tr>
+                        <td>SI.NO</td>
+                        <td>NAME</td>
+                        <td>GENDER</td>
+                        <td>AGE</td>
+                    </tr>
+                    <tr>
+                        <td>1.</td>
+                        <td><input type="text" name="firstname" placeholder="name" required></td>
+                        <td><select name="gender" required>
+                            <option value="MALE">M</option>
+                            <option value="FEMALE">F</option>
+                            <option value="RATHER NOT SAY">O</option>
+                            </select></td>
+                            <td><input type="number" name="age" placeholder="age" required></td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td><input type="text" name="firstname" placeholder="name" required></td>
+                        <td><select name="gender" required>
+                            <option value="MALE">M</option>
+                            <option value="FEMALE">F</option>
+                            <option value="RATHER NOT SAY">O</option>
+                            </select></td>
+                            <td><input type="number" name="age" placeholder="age" required></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <h5>APPLICANT DETAILS</h5>
+        <br>
+        <br>
+        <div>
+            <label>NAME OF THE APPLICANT</label>
+            <input type="text" placeholder="name">
+            <label>FULL ADDRESS</label>
+            <input type="text" placeholder="address">
+            <LABEL>Aahar.No(optional)</LABEL>
+            <input type="number" placeholder="aadhar no">
+            <label>Telephone/Mobile.No..if any</label>
+            <input type="number" placeholder="phone no">
+        </div>
+        <br>
+        <br>
+        <b><hr></b>
+        <h6>FOR OFFICE USE ONLY</h6>
+        <br>
+        <br>
+        <div>
+            <label>SI No of Requisition</label>
+            <input type="number" placeholder="SI.NO">
+            <label>PNR NO</label>
+            <input type="number" placeholder="PNR NO">
+        </div>
+        <br>
+        <br>
+        <div>
+            <label>Berth</label>
+            <input type="text" placeholder="berth type">
+            <label>Ammount collected</label>
+            <input type="number" placeholder="in rs">
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <ul>
+            <li><b>NOTE</b></li>
+            <li>Maximum permissible passenger is 4 per requistion</li>
+            <li>A person can give only requistion form</li>
+            <li>Form not properly filled in or illegible shall not be entertained</li>
+            <li>Please verify your ticket & balance ammount before leaving the webpage</li>
+            <li>Choice of berths is subjected to avilability</li>
+            <li>Paseengers booked on single ticket may or may not get compact accommadation in the upgraded class</li>
+            <li>During the journey any one among the passenger has to produce any one of the prescribed proofs or identity(in orginal)</li>
+        </ul>
+</body>
+</html>
